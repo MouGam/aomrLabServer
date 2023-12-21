@@ -1,0 +1,98 @@
+.member-page{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-title{
+    font-size:5vh;
+    font-weight: bold;
+
+    margin-top:10vh;
+    margin-left:25vw;
+}
+
+.card-placeholder{
+    margin: 8vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.member-card{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    width:40vw;
+    height: 40vh;
+    padding-left:0.5vw;
+    background-color: rgba(238, 250, 250,0);
+    border-radius: 20px;
+    margin-right: 1vw;
+    margin-bottom: 2vw
+}
+
+/* #professor-card{
+    width:80vw;
+} */
+
+.member-card-photoplace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.member-card-photo{
+    width: 12vw;
+    height: 16vw;
+    border-radius: 5px;
+    margin-left:3vw;
+    margin-right: 3vw;
+}
+
+.member-card-introduce{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left:1vw
+}
+
+.member-card-introduce-name{
+    font-size:3vh;
+}
+
+.member-card-introduce-curriculum{
+    font-size: 2vh;
+    color:gray;
+}
+
+.member-card-introduce-other{
+    font-size: 2vh;
+    padding-bottom:6px;
+}
+
+.member-card-introduce-another{
+    font-size: 3vh;
+    padding-bottom:4px;
+}
+
+.member-card-introduce-another.in{
+    font-size: 2vh;
+}
+
+
+#member-card-introduce-professor{
+    margin-left:10vw;
+    display:none;
+}
+
+.link{
+    color: black;
+}
+
+.major{
+    font-size:2.4vh;
+    margin-bottom:1vh;
+}

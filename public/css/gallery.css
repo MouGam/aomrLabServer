@@ -1,0 +1,21 @@
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    align-items: center;
+    margin:5vw;
+}
+
+.gallery-image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height:80vh;
+    width: 100%;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.gallery-image{
+    height:100%;
+}
